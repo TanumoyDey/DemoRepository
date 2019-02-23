@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FREE CRM Application Test Automation Test Suite]">
+  <test name="FREE CRM App Test Cases(failed)">
+    <classes>
+      <class name="com.cr.qa.testcases.HomePageTest">
+        <methods>
+          <include name="verifyContactsLinkTest"/>
+          <include name="setup"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="verifyUsernameTest"/>
+        </methods>
+      </class> <!-- com.cr.qa.testcases.HomePageTest -->
+      <class name="com.cr.qa.testcases.ContactsPageTest">
+        <methods>
+          <include name="selectSingleContactByNameTest"/>
+          <include name="selectMultipleContactsByNameTest"/>
+          <include name="verifyContactsLabelTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.cr.qa.testcases.ContactsPageTest -->
+      <class name="com.cr.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="loginPageTitleTest"/>
+          <include name="crmLogoImageTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.cr.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- FREE CRM App Test Cases(failed) -->
+</suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->
